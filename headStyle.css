@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_container{
+    background: #327a81;
+    width: 100% !important;
+    height: 11% !important;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+
+}
+#faa1{
+   
+    margin-right: 30px;
+}
+#faa2{
+    
+    margin-right: 50px;
+}
+#faa3{
+    
+    margin-right: 15px;
+}
+
+ul  {
+    margin: 0px !important;
+    padding: 0px !important;
+    list-style: none;
+ 
+    margin-left: 40px;
+    float: right;
+  
+   }
+   ul li {
+    float: right !important;
+    width: 190px !important;
+    height: 70px !important;  
+    /* background-color:rosybrown; */
+    background-color: #327a81;
+    line-height: 55px !important;
+    text-align: center !important ;
+    font-size: 17px !important;
+    /* margin-left:5px ; */
+    
+    font-weight: bold;
+    /* background-color: #a64452; */
+   
+   }
+   .marT{
+       margin-left: 20px;
+   }
+   ul li a {
+       
+    text-decoration: none !important;
+    color: white;
+    display: block !important;
+    width: 190px !important;
+    height: 85px !important;  
+    
+  
+   }
+  
+
+   ul li a:hover {
+    background: #ffffffd3;
+    color:black;
+    /* height: 75px !important;  */
+    width: 190px !important;
+    height: 85px !important;  
+  
+   
+   }
+   
+   ul li ul li{
+    display: none;
+   }
+   
+   ul li:hover ul li {
+    display: block;
+   }
+   ul li ul li ul li{
+    display: none;
+   }
+   .fa-caret-down{
+    color: #ffffffd3;
+    float: right;
+    margin-left: 296px;
+    /* margin-bottom: -168px; */
+    font-size: -67px;
+    /* top: 60px; */
+    margin-top: -33px;
+
+}
+/* .fa-caret-down:hover{
+   color:#fffffff5 ;
+} */
+.icon_drop{
+    fill:white;
+    font-size:20px;
+    width:20px;
+    height:20px;
+    padding:2.5px;
+    margin-top:10px;
+    margin-left:10px;
+    transition:all 0.3s;
+    text-align:center;
+   }
+
+   .log{
+    text-decoration: none;
+     width: 120px;
+    line-height: 59px;
+    float: left;
+    color: #FFF;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;  
+    background-color: #327a81;
+    cursor: pointer;
+    height: 70px;
+    border-radius: 4px; 
+    list-style: none;
+    
+   
+  
+}
+.log:hover{
+    /* background: #ffffffd3; */
+    
+    color:#fff;
+    height: 70px;
+    text-decoration: none;
+    -webkit-box-shadow: 0 6px 6px -6px #0E1119;
+           -moz-box-shadow: 0 6px 6px -6px #0E1119;
+                box-shadow: 0 6px 6px -6px #0E1119;
+    
+
+}
+
+
+/* .home{
+    width: 100%; 
+    background-color: indigo;
+    height: 90%; 
+}
+.home_img{
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 80%; 
+    margin-left: 25%;
+    background-color: ivory; 
+ background-image: url("uploads/salesLogo.png"); 
+    background-size: contain;
+} */
+#home{
+    width: 100%; 
+    height: 70%;
+}
+.home_box{
+    width: 45.5%;
+    height: 50%;
+    /* background: #327a81a6; */
+    display: inline-block;
+    position: relative;
+    /* margin-top: 350px; */
+    text-align: center;
+    margin-left:30%;
+    margin-top: 350px;
+}
+/* .home_box::before{
+	border: 5px solid #ffffff;
+	content: "";
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+}  */
+.home_box h2{
+	color: teal;
+	font-size: 50px;
+    font-weight: 500;
+    width: 98%;
+    height: 70%;
+    margin-top: 20px;
+    display: inline-block;
+    padding-top: 15px;
+    font-weight: bolder;
+    
+}
+.text_type{
+    z-index: 300px;
+}
+
+/*  */
+
+.copyrights {
+    border-top: 1px dashed rgba(255, 255, 255, 0.1);
+    background-color:#40acb681 ;
+    box-sizing: border-box;
+    width: 100%;
+    text-align:center;
+    padding: 30px 0px;
+    overflow: hidden; 
+}
+.footer-distributed .footer-left {
+	text-align: center;
+}
+
+.footer-distributed .footer-links {
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.footer-distributed .footer-left a {
+    display: inline-block;
+    line-height: 1.8;
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+}
+.footer-distributed .footer-left a:hover{
+    /* color: #432382; */
+    color:black;
+}
+
+.footer-distributed .footer-company-name {
+    font-weight: 400;
+    margin: 0 10px;
+    color: #4f05af;
+    padding: 0;
+}
+
+
+

@@ -1,0 +1,200 @@
+/*#3498db  edit   */
+/*#8e44ad  save   */
+/*#2ecc71    new  */
+/*#555555  cancel   */
+/*#c0392b  delete   */
+/* 1st alternate hover colors if hover inset shadow not working properly
+$gw-blue-dark: rgb(27, 79, 114); /*#1b4f72
+$gw-purple-dark: rgb(74, 35, 90);  /*#4a235a
+$gw-green-dark: rgb(29, 131, 72); /*#1d8348
+$black: rgb(0, 0, 0); /*#000000
+$gw-red-dark: rgb(123, 36, 28); /*#7b241c */
+
+html{
+  direction: rtl;
+}
+.button {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 300;
+  display: inline-block;
+  color: #FFF;
+  border-radius: .25em;
+  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.4);
+  
+}
+.btn{
+position: absolute;
+margin-right: 260px;
+top:500px;
+height: 40px;
+color: #FFF;
+ /* z-index: 0; */
+}
+.btn-primary {
+  position: absolute;
+  margin-right:50px;
+  top:500px;
+  width: 150px;
+  color: #FFF;
+ 
+}
+.primary{
+  margin: 3px;
+}
+.butt{
+  float: right;
+  margin-right: 1350px;
+  top: 300px;
+  position: fixed;
+}
+.btn-info{
+  
+  right: 200px;
+  position: absolute;
+  top:500px;
+}
+.primary {
+  line-height: 40px;
+  -webkit-transition: ease-in-out .2s;
+  transition: ease-in-out .2s;
+  padding: 0 16px;
+}
+
+.primary:hover, .condensed:hover, .touch:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), inset 0 0 0 99999px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), inset 0 0 0 99999px rgba(0, 0, 0, 0.2);
+}
+
+/* 2nd alternate hover colors if hover inset shadow not working properly 
+.edit:hover {
+  background: darken($gw-blue, 10%);
+}
+
+.save:hover {
+  background: darken($gw-purple, 10%);
+}
+
+.new:hover {
+  background: darken($gw-green, 10%);
+}
+
+.cancel:hover {
+  background: darken($gw-gray-5, 10%);
+}
+
+.delete:hover {
+  background: darken($gw-red, 10%);
+}
+*/
+.condensed {
+  -webkit-transition: ease-in-out .2s;
+  transition: ease-in-out .2s;
+  line-height: 24px;
+  padding: 0 8px;
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.touch {
+  -webkit-transition: ease-in-out .2s;
+  transition: ease-in-out .2s;
+  line-height: 40px;
+  width: 40px;
+  padding: 0px;
+  text-align: center;
+}
+
+.edit:before, .save:before, .new:before, .cancel:before, .delete:before {
+  font-family: FontAwesome;
+  display: inline-block;
+  font-size: 1rem;
+  padding-right: 11px;
+  background: none;
+  color: rgb(255, 255, 255);
+}
+
+.condensed.edit:before, .condensed.save:before, .condensed.new:before, .condensed.cancel:before, .condensed.delete:before {
+  content: none;
+}
+
+.touch.edit:before, .touch.save:before, .touch.new:before, .touch.cancel:before, .touch.delete:before {
+  width: 100%;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.inlineIcon.edit, .inlineIcon.save, .inlineIcon.new, .inlineIcon.cancel, .inlineIcon.delete {
+  background: transparent;
+}
+
+.inlineIcon.edit:before, .inlineIcon.save:before, .inlineIcon.new:before, .inlineIcon.cancel:before, .inlineIcon.delete:before {
+  line-height: 32px;
+  font-size: 32px;
+  padding: 4px 0px;
+}
+
+.edit {
+  background: #3498db;
+  
+}
+
+.edit:before {
+  content: "\f040";
+}
+
+.inlineIcon.edit:before {
+  color: #3498db;
+}
+
+.save {
+  background: #8e44ad;
+ ;
+}
+
+.save:before {
+  content: "\f0c7";
+}
+
+.inlineIcon.save:before {
+  color: #8e44ad;
+}
+
+.read {
+  background: #2ecc71;
+}
+
+.new:before {
+  content: "\f067";
+}
+
+.inlineIcon.new:before {
+  color: #2ecc71;
+}
+
+.cancel {
+  background: #555555;
+}
+
+.cancel:before {
+  content: "\f05e";
+}
+
+.inlineIcon.cancel:before {
+  color: #555555;
+}
+
+.delete {
+  background: #c0392b;
+}
+
+.delete:before {
+  content: "\f1f8";
+}
+
+.inlineIcon.delete:before {
+  color: #c0392b;
+}
+/*# sourceMappingURL=style1.css.map */
